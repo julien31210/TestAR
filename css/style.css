@@ -1,12 +1,12 @@
-body{
-/*	background-image: url(assets/map.jpg);
-	background-repeat: no-repeat;*/
-}
-
 h1{
 	color: white;
 }
 
 p{
 	color: black;
+}
+
+.check{
+	opacity: 0.5;
+	color: green;
 }
