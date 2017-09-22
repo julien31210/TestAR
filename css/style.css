@@ -6,6 +6,10 @@ p{
 	color: white;
 }
 
+label{
+	color: white;
+}
+
 .check{
 	opacity: 0.5;
 	color:#2b871d;
