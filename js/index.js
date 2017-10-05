@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var sceneEl = document.querySelector('a-scene').addEventListener('click', function(evt){
 	console.log(sceneEl);	
-	window.location.replace('Owl.html');
+	window.location.replace('q8.html');
 });
 });
 // var planne = document.getElementById("scene").getElementsByTagName("clickable");
