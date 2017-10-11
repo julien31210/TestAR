@@ -17,7 +17,7 @@ label{
     flex-direction: row;
 }
 
-.gauche {
+/*.gauche {
     padding-left:9px;
     background:url(phyl.gif) no-repeat left top;
     border-radius: 20px;
@@ -25,7 +25,7 @@ label{
 .droite {  
     border-right:1px solid #333;
     border-radius: 20px;
-}
+}*/
 .droite h2, p{
     background:#fff;
     border:1px solid #333;
