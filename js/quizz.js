@@ -1,7 +1,9 @@
- $(document).ready(function(e){
-	$(".btn").click(function(){
-		document.querySelector('*["draggable=true"]').addEventListener('dragstart', function(e){
+$(document).ready(function(e){
+	$(".draggable").draggable({
+		// refreshPositions: true;
+	});
+// 	var refreshPositions = $( ".draggable" ).draggable( "option", "refreshPositions" );
 
-		});
-	});	
+// // Setter
+// $( ".draggable" ).draggable( "option", "refreshPositions", true );
 });

@@ -4,12 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/style.css"/>
 	<!-- <style rel="stylesheet" src="css/style.css"></style> -->
-	<script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.7.0/intro.min.js"></script>
-	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="node_modules/three/build/three.min.js"></script>
-	<script src="js/quizz.js"></script>
 </head>
 <body background="assets/map.jpg">	
 	<div id="conteneur" class="container-fluid">
@@ -18,29 +15,64 @@
 				<p>Trouve le nom de ces 3 animaux et indique le
 					numéro de la porte qu’ils gardent.</p>
 					<div class="tableau">
-						<img src="assets/Jeux-de-piste-9-11-ans-%281%29-008.jpg" alt="photo quelconque" class="img-thumbnail img-check"/> 
+						<img src="assets/Jeux-de-piste-9-11-ans-%281%29-008.jpg" alt="photo quelconque" class="img-thumbnail img-check lion"/> 
 
-						<img src="assets/Jeux-de-piste-9-11-ans-%281%29-009.jpg" alt="photo quelconque" class="img-thumbnail img-check"/>
+						<img src="assets/Jeux-de-piste-9-11-ans-%281%29-009.jpg" alt="photo quelconque" class="img-thumbnail img-check aigle"/>
 
-						<img src="assets/Jeux-de-piste-9-11-ans-%281%29-010.jpg" alt="photo quelconque" class="img-thumbnail img-check"/>
+						<img src="assets/Jeux-de-piste-9-11-ans-%281%29-010.jpg" alt="photo quelconque" class="img-thumbnail img-check gryffon"/>
 					</div>
 				</div>
 			</div>
-		<div id="containere" class="col-md-5">
-			<div class="left">
-				<div class="right">
-					<p>Te voici arrivé à la 8ème et dernière étape de ta découverte de Saint-Gaudens</p>
+			<div id="containere" class="col-md-5">
+				<div class="left">
+					<div class="right">
+						<p>Te voici arrivé à la 8ème et dernière étape de ta découverte de Saint-Gaudens</p>
+					</div>
 				</div>
+				<img src="assets/Hibou1-ConvertIma.png" alt="Owl">
 			</div>
-			<img src="assets/Hibou1-ConvertIma.png" alt="Owl">
 		</div>
+		<div class="quiz" data-toggle="buttons">
+			<label class="element-animation1 btn btn-lg btn-primary draggable" draggable="true">
+				<span class="btn-label">
+				</span>
+				<input type="radio" name="q_answer" value="1">1 One
+			</label>
+			<label class="element-animation2 btn btn-lg btn-primary draggable" draggable="true">
+				<span class="btn-label">
+				</span>
+				<input type="radio" name="q_answer" value="2">2 Two
+			</label>
+			<label class="element-animation3 btn btn-lg btn-primary draggable" draggable="true">
+				<span class="btn-label">
+				</span>
+				<input type="radio" name="q_answer" value="3">3 Three
+			</label>
+			<label class="element-animation4 btn btn-lg btn-primary draggable" draggable="true">
+				<span class="btn-label">
+				</span> 
+				<input type="radio" name="q_answer" value="4">4 Four
+			</label>
+<!-- 			<label class="draggable" for="">
+				<input value="1 One" type="button">
+			</label>
+			<label class="draggable" for="">
+				<input value="2 Two" type="button">
+			</label>
+			<label class="draggable" for="">
+				<input value="3 Three" type="button">
+			</label>
+			<label class="draggable" for="">
+				<input value="4 Four" type="button">
+			</label> -->
 		</div>
-		<div class="quiz" id="quiz" data-toggle="buttons">
-		<label class="element-animation1 btn btn-lg btn-primary"><span class="btn-label"></span> <input type="radio" name="q_answer" value="1">1 One</label>
-			<label class="element-animation2 btn btn-lg btn-primary"><span class="btn-label"></span> <input type="radio" name="q_answer" value="2">2 Two</label>
-			<label class="element-animation3 btn btn-lg btn-primary"><span class="btn-label"></span> <input type="radio" name="q_answer" value="3">3 Three</label>
-			<label class="element-animation4 btn btn-lg btn-primary"><span class="btn-label"></span> <input type="radio" name="q_answer" value="4">4 Four</label>
-		</div>
+	</body>
+	<script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.7.0/intro.min.js"></script>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="node_modules/three/build/three.min.js"></script>
+	<script src="js/quizz.js"></script>
+	</html>
 		<!-- <div class="container-fluid bg-info">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -74,5 +106,3 @@
 				</div>
 			</div>
 		</div> -->
-	</body>
-	</html>
