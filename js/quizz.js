@@ -11,7 +11,7 @@ $(document).ready(function(e){
 		var offsetYPos = parseInt( ui.offset.top );
 		// alert( "Drag stopped!\n\nOffset: (" + offsetXPos + ", " + offsetYPos + ")\n");
 
-		var position = $(".tableau")[0].getBoundingClientRect();
+		var position = $(".lion")[0].getBoundingClientRect();
 		// console.log(position);
 		var x = position.left + position.width;
 		var y = position.top + position.height;
