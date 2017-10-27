@@ -11,7 +11,7 @@ $(document).ready(function(e){
 		var offsetYPos = parseInt( ui.offset.top );
 		// alert( "Drag stopped!\n\nOffset: (" + offsetXPos + ", " + offsetYPos + ")\n");
 
-		var position = $(".lion")[0].getBoundingClientRect();
+		var position = $(".tableau")[0].getBoundingClientRect();
 		// console.log(position);
 		var x = position.left + position.width;
 		var y = position.top + position.height;
@@ -24,9 +24,17 @@ $(document).ready(function(e){
 
 			var id= $(this).data('response');
 			console.log(id);
-			switch(id){
-				case "liondrag":
-				console.log('ça marche');
+			var classe = $(".img-check");
+			for (var i = 0; i < classe.length; i++) {
+				console.log(classe[i]);
+			};
+			var img = $(this).data('corp');
+			console.log(img);
+			img=id;
+			// console.log(classe);
+			switch(img){
+				case "lion":
+				console.log(id);
 				break;
 				case "flute":
 				console.log('lolololol')
